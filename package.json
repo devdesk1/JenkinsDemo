@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "test": "playwright test",
-  "report": "npx monocart show-report monocart-report/index.html"
-},
-
+    "test": "playwright test && npx monocart generate monocart-report/index.json",
+    "show-report": "npx monocart show-report monocart-report/index.json"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
