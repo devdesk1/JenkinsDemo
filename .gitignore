@@ -5,3 +5,7 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+/.history/
+.history/
+monocart-report/
+/monocart-report/
