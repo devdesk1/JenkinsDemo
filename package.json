@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
   "test": "playwright test",
-  "report": "npx monocart show-report monocart-report/index.json"
+  "report": "npx monocart show-report monocart-report/index.html"
 },
 
   "keywords": [],
