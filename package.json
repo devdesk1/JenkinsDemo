@@ -2,10 +2,12 @@
   "name": "jenkinsdemo",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "playwright test && npx monocart generate monocart-report/index.json",
-    "show-report": "npx monocart show-report monocart-report/index.json"
-  },
+"scripts": {
+  "test": "playwright test",
+  "report": "monocart generate monocart-report/index.json",
+  "report:preview": "monocart preview monocart-report/index.json"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",

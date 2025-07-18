@@ -1,11 +1,13 @@
 
 # Playwright
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/.history/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Editor history
 .history/
+
+# Monocart
 monocart-report/
-/monocart-report/
